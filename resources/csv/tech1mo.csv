@@ -1,0 +1,67 @@
+date,open,high,low,close,volume,Symbol,Name,Industry,Market Cap
+2018-01-08,174.35,175.61,173.93,174.35,20567766,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-09,174.55,175.06,173.41,174.33,21583997,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-10,173.16,174.3,173.0,174.29,23959895,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-11,174.59,175.4886,174.49,175.28,18667729,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-12,176.18,177.36,175.65,177.09,25418080,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-16,177.9,179.39,176.14,176.19,29565947,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-17,176.15,179.25,175.07,179.1,34386836,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-18,179.37,180.1,178.25,179.26,31193352,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-19,178.61,179.58,177.41,178.46,32425067,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-22,177.3,177.78,176.6016,177.0,27108551,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-23,177.3,179.44,176.82,177.04,32689146,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-24,177.25,177.3,173.2,174.22,51105090,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-25,174.505,174.95,170.53,171.11,41529004,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-26,172.0,172.0,170.06,171.51,39143011,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-29,170.16,170.16,167.07,167.96,50640406,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-30,165.525,167.37,164.7,166.97,46048185,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-31,166.87,168.4417,166.5,167.43,32478930,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-02-01,167.165,168.62,166.76,167.78,47230787,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-02-02,166.0,166.8,160.1,160.5,86593825,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-02-05,159.1,163.88,156.0,156.49,72738522,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-02-06,154.83,163.72,154.0,163.03,68243838,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-02-07,163.085,163.4,159.0685,159.54,51608580,AAPL,Apple,"Technology Hardware, Storage & Periph...",2920520000000.0
+2018-01-08,48.78,49.7,45.62,46.0,23460829,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-09,46.48,47.29,46.04,46.39,10500163,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-10,46.16,47.27,45.81,47.07,3808752,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-11,47.36,49.05,47.11,49.005,6246581,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-12,49.12,51.88,49.11,51.26,7747448,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-16,50.77,52.335,50.42,51.51,6885254,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-17,51.27,52.42,50.891,52.14,4113573,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-18,52.2,52.29,51.62,52.01,3982283,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-19,52.14,52.77,51.7424,52.62,3871209,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-22,52.49,53.25,52.04,53.16,3591726,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-23,53.18,54.12,52.93,54.06,3192240,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-24,54.04,54.08,52.295,52.97,5551529,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-25,53.46,53.8,52.67,53.17,3618291,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-26,53.51,55.0,53.44,54.94,7318581,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-29,54.0,55.62,53.5108,55.11,8940951,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-30,54.0,55.01,53.15,54.98,7756255,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-31,55.15,56.45,55.07,55.2,5110203,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-02-01,54.72,55.53,53.8,54.44,5356395,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-02-02,53.99,54.0,51.3801,51.77,6567155,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-02-05,51.26,52.42,49.51,49.65,7359006,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-02-06,48.08,49.45,47.2,48.68,9556611,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-02-07,49.2,50.61,48.79,49.55,6042727,STX,Seagate Technology Holdings,"Technology Hardware, Storage & Periph...",20499797980.0
+2018-01-08,83.0,83.0,80.61,81.44,4875269,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-09,81.52,82.1,80.43,80.62,3810738,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-10,79.2,80.9455,78.8,80.91,4941137,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-11,80.92,82.91,80.9,82.25,3822071,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-12,82.68,83.31,82.45,83.12,2990813,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-16,83.7,84.98,83.3,83.88,5574321,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-17,84.54,85.4799,84.2,85.16,4397980,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-18,85.17,86.57,85.07,86.4,4603950,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-19,86.12,87.07,85.38,85.6,3938520,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-22,85.94,86.39,85.1,86.24,4534469,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-23,86.43,87.55,86.01,87.34,3081448,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-24,87.7,87.89,86.18,86.97,4696601,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-25,88.18,89.84,87.645,87.99,7284045,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-26,86.75,89.63,86.71,89.6,8188499,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-29,88.74,89.8,87.18,87.45,5004692,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-30,86.0,87.26,85.11,87.08,4730868,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-01-31,89.18,91.19,88.67,88.98,8524324,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-02-01,87.43,89.12,86.6,87.65,3555220,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-02-02,86.99,87.13,85.01,85.25,5010389,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-02-05,84.2,85.9,81.44,81.45,5205198,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-02-06,80.58,84.6,80.25,84.25,4835812,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0
+2018-02-07,83.95,85.32,83.1,83.71,3737728,WDC,Western Digital,"Technology Hardware, Storage & Periph...",16237316057.0

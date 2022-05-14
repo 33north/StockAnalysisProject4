@@ -1,0 +1,243 @@
+/* Body formatting*/
+body {  
+  background-color:black;
+}
+
+.title-border {
+  padding: 20px 20px 20px 70px;
+  border-style: inset inset inset inset;
+  border-top-color: maroon;
+  border-right-color: maroon;
+  border-bottom-color: maroon; 
+  border-left-color: maroon;
+  border-width: 5px 5px 5px 5px;
+  background-color: darkred;
+}
+
+/* Banner CSS */
+.content-banner {
+  height: 500px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 100px;
+  position: relative;
+  user-select: none;
+}
+
+/* General styling */
+.text-style, 
+.text-format, 
+.text-banner {
+  color: white;
+  font-style: whitesmoke;
+  letter-spacing: 0.06em;
+}
+
+/* General text formatting */
+.text-format {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* Banner text formatting */
+.text-banner {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+/* Navbar formatting */
+.navbar, 
+.nav-link, 
+.navbar-nav, 
+.navbar-item,
+.navbar-brand {
+  letter-spacing: 0.06em;
+  font-style: whitesmoke;
+  font-weight: 800;
+}
+
+.nav-link-dropdown {
+  letter-spacing: 0.06em;
+  font-style: whitesmoke;
+  font-weight: 625;
+}
+
+/* Home page content formatting */
+.home-content-format {
+  padding: 20px 20px 20px 70px;
+  border-style: inset none none inset;
+  border-top-color: maroon;
+  border-left-color: darkred;
+  border-width: 5px 0px 0px 15px;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+
+@media (min-width: 1000px) {
+  /* #intro .col {
+    padding: 18vw 12vw;
+    font-size: 2.7vw;
+  } */
+}
+
+@media (min-width: 500px) {
+  /* .rectangle {
+    width: 40%;
+  } */
+}
+
+
+/* body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: black;
+} */
+
+.panel-default > .panel-heading-custom {
+  background: charcoalgray; color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.jumbotron > h1 {
+  text-shadow: 1px 1px 2px black;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: whitesmoke;
+  background-color: darkred;
+  background-size: 100%;
+  text-align: center;  
+}
+
+.panel-primary>.panel-heading {
+  color: whitesmoke;
+  background-color: darkred;
+  border-color: darkred;
+}
+
+.well {
+  min-height: 50px;
+  padding: 19px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: darkred;
+  border: 1px solid darkred transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+/* 
+.rectangle {
+  position: absolute;
+  width: 97vw;
+  height: 30vw;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #69b7bf 25%, #ffe664);
+}
+
+.row > .col {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#intro .col {
+  height: 50vh;
+  padding: 9vw 6vw;
+  font-size: 18px;
+}
+
+#one {
+  background-color: #212121;
+}
+
+#one .elem {
+  opacity: 0;
+  letter-spacing: 0.04em;
+}
+
+#one .text-block h2 {
+  font-size: 5vw;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  line-height: 1;
+}
+
+#one .text-block h5 {
+  font-size: 4vw;
+  line-height: 1;
+}
+
+#one .elem .blocks {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+#one .elem .blocks > div {
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+  border-radius: 2px;
+  background-color: #333;
+}
+
+#two {
+  height: auto;
+  overflow: hidden;
+  padding: 3vw 15vw 10vw;
+  background: linear-gradient(0deg, #69b7bf 25%, #ffe664);
+}
+
+#three, #four {
+  position: relative;
+  overflow: hidden;
+}
+
+#three .image, #four .image {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  width: 100%;
+}
+
+#three .image {
+  background-image: url("https://drive.google.com/uc?export=view&id=10tzeBrvoR5OO3EK_Wcg-gRxbVO7xv6em");
+  background-size: 100;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#four .image {
+  background-image: url("https://drive.google.com/uc?export=view&id=1SzCTDu5_eAF569lFHtNyIlUCrdW2mOXu");
+  background-size: 200;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
