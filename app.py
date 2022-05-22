@@ -24,8 +24,47 @@ app = Flask(__name__)
 #################################################
 # Flask Routes
 #################################################
+# Starting Page
 @app.route("/")
 def home():
+    return render_template("index.html")
+
+# Index/Home (To deal with goin back to the home page)
+@app.route("/index")
+def index():
+    return render_template("index.html")
+
+# About Us Section
+@app.route("/aboutus")
+def aboutus():
+    return render_template("aboutus.html")
+
+# Rawdata Section
+@app.route("/rawdata")
+def rawdata():
+    return render_template("rawdata.html")
+
+# API Section
+@app.route("/api")
+def api():
+    return render_template("api.html")
+
+# Industry Section
+@app.route("/api")
+def api():
+    return render_template("api.html")
+
+@app.route("/api")
+def api():
+    return render_template("api.html")
+
+@app.route("/api")
+def api():
+    return render_template("api.html")
+
+# Test Section
+@app.route("/test")
+def test():
     """List all available api routes."""
     return (
         f"Available Routes:<br/>"
@@ -35,6 +74,7 @@ def home():
         f"https://traciediepbautista.github.io/StockAnalytics/index.html"
     )
 
+# API JSON 
 @app.route("/api/v1.0/all_stocks")
 def all_stocks():
     # Create our session (link) from Python to the sqlite
