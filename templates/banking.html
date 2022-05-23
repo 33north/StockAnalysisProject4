@@ -36,22 +36,22 @@
 
           <!-- Navbar with individual items listed out -->
           <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
+            <a class="nav-link" href="{{ ('aboutus') }}">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="rawdata.html">Raw Data</a>
+            <a class="nav-link" href="{{ ('rawdata') }}">Raw Data</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="api.html">API</a>
+            <a class="nav-link" href="{{ ('api') }}">API</a>
           </li>
 
           <!-- Navbar with dropdown listing out each item -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id = "navbardrop" data-toggle = "dropdown" href="#">Industry</a>
             <div class = "dropdown-menu">
-              <a class = "nav-link-dropdown dropdown-item" href = "banking.html">Banking</a>
-              <a class = "nav-link-dropdown dropdown-item" href = "pharma.html">Pharmaceutical</a>
-              <a class = "nav-link-dropdown dropdown-item" href = "tech.html">Technology</a>  
+              <a class = "nav-link-dropdown dropdown-item" href = "{{ ('banking') }}">Banking</a>
+              <a class = "nav-link-dropdown dropdown-item" href = "{{ ('pharma') }}">Pharmaceutical</a>
+              <a class = "nav-link-dropdown dropdown-item" href = "{{ ('tech') }}">Technology</a>  
             </div>
           </li>
 
@@ -123,7 +123,7 @@
     
     <div class = "row">
       <div class = "col-md-14" style = "margin-left: auto; margin-right: auto;">
-        <img src = "image/figure_1.jpeg" style = "width: 800px; height: 600px; background-color: white;">
+        <img src = "static/image/figure_1.jpeg" style = "width: 800px; height: 600px; background-color: white;" alt = "Missing Image Here">
       </div>
       <div class = "row" style = "margin-left: 100px; margin-right: 100px">
         <p class = "text-format">

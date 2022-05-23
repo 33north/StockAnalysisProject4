@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     
     <!-- Style Sheet -->
-    <link rel="stylesheet" type = "text/css" href="javascript/style.css">
+    <link rel="stylesheet" type = "text/css" href="static/css/style.css">
   </head>
 
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
 
-      <a class="navbar-brand" href="index.html">Pandas Consulting Group</a>
+      <a class="navbar-brand" href="{{ ('index') }}">Pandas Consulting Group</a>
       
       <button
         class="navbar-toggler"
@@ -36,22 +36,22 @@
 
           <!-- Navbar with individual items listed out -->
           <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
+            <a class="nav-link" href="{{ ('aboutus') }}">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="rawdata.html">Raw Data</a>
+            <a class="nav-link" href="{{ ('rawdata') }}">Raw Data</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="api.html">API</a>
+            <a class="nav-link" href="{{ ('api') }}">API</a>
           </li>
 
           <!-- Navbar with dropdown listing out each item -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id = "navbardrop" data-toggle = "dropdown" href="#">Industry</a>
             <div class = "dropdown-menu">
-              <a class = "nav-link-dropdown dropdown-item" href = "banking.html">Banking</a>
-              <a class = "nav-link-dropdown dropdown-item" href = "pharma.html">Pharmaceutical</a>
-              <a class = "nav-link-dropdown dropdown-item" href = "tech.html">Technology</a>  
+              <a class = "nav-link-dropdown dropdown-item" href = "{{ ('banking') }}">Banking</a>
+              <a class = "nav-link-dropdown dropdown-item" href = "{{ ('pharma') }}">Pharmaceutical</a>
+              <a class = "nav-link-dropdown dropdown-item" href = "{{ ('tech') }}">Technology</a>  
             </div>
           </li>
 

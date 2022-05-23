@@ -50,17 +50,17 @@ def api():
     return render_template("api.html")
 
 # Industry Section
-@app.route("/api")
-def api():
-    return render_template("api.html")
+@app.route("/banking")
+def banking():
+    return render_template("banking.html")
 
-@app.route("/api")
-def api():
-    return render_template("api.html")
+@app.route("/pharma")
+def pharm():
+    return render_template("pharma.html")
 
-@app.route("/api")
-def api():
-    return render_template("api.html")
+@app.route("/tech")
+def tech():
+    return render_template("tech.html")
 
 # Test Section
 @app.route("/test")
