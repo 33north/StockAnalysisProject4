@@ -1,12 +1,10 @@
-
-
 // function get data 
 function getData() {
   var dropdown = d3.select("#selectData");
   var dataset = dropdown.property("value");
   buildcharts(dataset)
-
 }
+
 // event lister
 d3.selectAll("#selectData").on("change", getData);
 
@@ -17,7 +15,6 @@ function buildcharts(dataset) {
   // function tracie(BankValue) {
 
   console.log(dataset)
-
 
   d3.json(dataset).then((data) => {
      console.log(data)
@@ -173,55 +170,12 @@ function buildcharts(dataset) {
   };
     
     Plotly.newPlot('candle', data, layout);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   });
 }
 
 function init() {
   buildcharts("resources/bank30.json");
-
 }
+
 init();
 
