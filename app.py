@@ -26,7 +26,9 @@ app = Flask(__name__)
 #################################################
 @app.route("/")
 def home():
-    """List all available api routes."""
+    """
+    List all available api routes.
+    """
     return (
         f"Available Routes:<br/>"
         f"/api/v1.0/all_stocks<br/>"
@@ -61,18 +63,26 @@ def api():
 
 @app.route("/banking/")
 def banking():
+    """
+    """
     return render_template("banking.html")
 
 @app.route("/pharma/")
 def pharma():
+    """
+    """
     return render_template("pharma.html")
 
 @app.route("/tech/")
 def tech():
+    """
+    """
     return render_template("tech.html")
 
 @app.route("/api/v1.0/all_stocks")
 def all_stocks():
+    """
+    """
     # Create our session (link) from Python to the sqlite
     session = Session(engine)
 
