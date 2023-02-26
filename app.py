@@ -35,6 +35,42 @@ def home():
         f"https://traciediepbautista.github.io/StockAnalytics/index.html"
     )
 
+@app.route("/index/")
+def index():
+    """
+    """
+    return render_template("index.html")
+
+@app.route("/aboutus/")
+def aboutus():
+    """
+    """
+    return render_template("aboutus.html")
+
+@app.route("/rawdata/")
+def rawdata():
+    """
+    """
+    return render_template("rawdata.html")
+
+@app.route("/api/")
+def api():
+    """
+    """
+    return render_template("api.html")
+
+@app.route("/banking/")
+def banking():
+    return render_template("banking.html")
+
+@app.route("/pharma/")
+def pharma():
+    return render_template("pharma.html")
+
+@app.route("/tech/")
+def tech():
+    return render_template("tech.html")
+
 @app.route("/api/v1.0/all_stocks")
 def all_stocks():
     # Create our session (link) from Python to the sqlite
